@@ -1,0 +1,16 @@
+RYAN ENERGY v14
+- Main navigation: Demand, Supply, Economic Analysis, Simulation.
+- Supply contains Solar PV, Wind Farm, Greenhouse, Desalination, Storage & Grid.
+- Demand/Fuels includes natural gas and gasoline, diesel, heavy fuel oil, kerosene,
+  LPG, jet fuel, crude oil with separate energy quantities.
+- Simulation consolidates supply, demand, hourly dispatch, economics, and CO2
+  by fuel and grid source, with editable emission factors and CSV download.
+- CO2 calculation is direct combustion plus purchased grid power. Factors are
+  approximate LHV screening values, not verified national inventory factors.
+- Fuel, process heat, and transport fuel are NOT yet dispatched as part of a
+  full sector-coupled energy model. Aggregate transport fuel is excluded from
+  emissions to avoid guessing fuel mix or double counting.
+- Economics recomputes from saved assumptions and current dispatch.
+- WaterTAP/EnergyPlus execution still not validated; screening models remain.
+- Needs live Windows/Streamlit integration test; Python syntax and isolated
+  emissions/economics arithmetic checked.

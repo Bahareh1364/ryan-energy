@@ -1,0 +1,18 @@
+RYAN ENERGY v13 — interface restructuring
+1. Removed Project / Location & Climate navigation and the Climate dataset expander.
+   Country, province, city remain in sidebar; weather is automatically fetched on Run Simulation.
+   Internet is required for the first weather fetch (unless a previously loaded in-session cache exists).
+2. Demand has Heating & Cooling, Industry, Fuels, Transport, Desalination Demand.
+   Fuel and thermal demand entries are tracked and displayed but NOT yet converted into hourly
+   fuel dispatch, CO2 emissions or thermodynamic conversion. EV demand enters electric dispatch
+   as a flat hourly average.
+3. Greenhouse outputs consolidated into a five-metric summary followed by geometry and
+   assumptions. CSV/HTML design report remains downloadable.
+4. Removed visible native WaterTAP installation/solve controls from Desalination.
+   The current result is a screening estimate; it is not a native WaterTAP result.
+5. Navigation under Simulation now only has Simulation. Integrated results, plots, sector
+   demand overview and cached economic summary appear on that page. Economics is an
+   assumption-input screen; refresh it after a new simulation to update cached economics.
+6. Known limitations: climate retrieval needs internet; current weather is representative
+   climatology; greenhouse uses simplified sensible-load screening; fuel and thermal loads
+   are not dispatched; WaterTAP and EnergyPlus solver execution not integrated.

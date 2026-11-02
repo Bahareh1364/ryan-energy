@@ -1,0 +1,11 @@
+RYAN ENERGY v15.4 - Save / Load Project
+
+1. Open the app and enter design inputs.
+2. Scroll to the bottom of any page and click Save Project JSON.
+3. Keep RYAN_ENERGY_project.json in a safe folder.
+4. After reopening the app, choose the file under Load saved project (.json) in the sidebar.
+5. Click Load Project. Visit the design pages to check restored values.
+6. Run Complete Simulation again: weather and hourly simulation results are not saved.
+
+Note: Manufacturer wind power curve uploaded from CSV is not stored in the project JSON. Reupload the CSV if used.
+A project file is not autosave. Click Save Project JSON again after changes.

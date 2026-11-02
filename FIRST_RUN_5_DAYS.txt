@@ -1,0 +1,16 @@
+RYAN ENERGY v15 - FIVE DAY DEMO STABILIZATION
+
+1. Extract ZIP to Desktop. Do not run inside the ZIP.
+2. Double-click START_RYAN_ENERGY.bat (requires the existing Notebook Python environment).
+3. Choose Country > Province > City.
+4. Enter Solar PV or Wind Farm design (at least one).
+5. Enter demand and economic assumptions.
+6. Go to Simulation > Simulation and click Run Complete Simulation.
+7. For no internet ONLY: check Offline demonstration in sidebar. All outputs are
+   synthetic-weather demonstration, NOT validated engineering data.
+8. Save CSV reports before the presentation.
+
+KNOWN LIMITATIONS: EnergyPlus/WaterTAP native solvers not integrated; simplified
+greenhouse, desalination and carbon models; fuel/heat not fully sector-coupled.
+Do not promise full scientific validation. First full Streamlit/PyPSA run on the
+user's Windows laptop still needs to be checked.

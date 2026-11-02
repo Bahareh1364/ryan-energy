@@ -1,0 +1,1 @@
+Hotfix v15.1: fix NameError loss in engine.py pv_profile and wind_profile. Use losses parameter consistently. No other model changes.

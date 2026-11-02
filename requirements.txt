@@ -1,0 +1,10 @@
+streamlit>=1.37,<2
+pandas>=2.1
+numpy>=1.26
+requests>=2.31
+pvlib>=0.11
+pypsa>=0.34
+highspy>=1.7
+geonamescache>=2.0
+plotly>=5.20
+Unidecode>=1.3
